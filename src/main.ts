@@ -1,5 +1,5 @@
 import './style.css'
-import * as sketches from "./sketches";
+import {DatGUIApp} from "./fundamentals";
 
-
-sketches.basicScene();
+const app = new DatGUIApp();
+app.init()

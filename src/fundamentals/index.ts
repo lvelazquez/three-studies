@@ -1,1 +1,2 @@
-export * from "./fundamentals/basic-scene";
+export * from "./basic-scene";
+export * from "./basic-datgui-scene";

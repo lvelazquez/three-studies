@@ -1,6 +1,7 @@
 import * as THREE from "three";
 
 export function basicScene() {
+
     const app: HTMLDivElement = document.querySelector<HTMLDivElement>('#app')!;
     const canvas: HTMLCanvasElement = document.createElement("canvas");
     app.appendChild(canvas);
@@ -8,6 +9,7 @@ export function basicScene() {
     const renderer: THREE.WebGLRenderer = new THREE.WebGLRenderer({canvas});
     
     // Add camera
+    // Field of view or aperture
     const fov = 75;
     const aspect = 2;  // the canvas default
     const near = 0.1;
