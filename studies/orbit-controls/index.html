@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orbit controls and GUI - three.js studies</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <main>
+      <p><a href="../../">&larr; All studies</a></p>
+      <h1>Orbit controls and GUI</h1>
+      <p>The same cube with OrbitControls and a lil-gui panel for camera zoom and light.</p>
+      <canvas id="scene" class="scene"></canvas>
+      <div class="toolbar">
+        <button id="pause" type="button" aria-pressed="false">Pause animation</button>
+        <p class="hint">Drag to orbit, scroll to zoom, or focus the canvas and use arrow keys. Space toggles animation.</p>
+      </div>
+    </main>
+    <script type="module" src="/src/studies/orbit-controls.ts"></script>
+  </body>
+</html>
